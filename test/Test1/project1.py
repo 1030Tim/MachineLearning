@@ -40,7 +40,7 @@ def Gradient_Descent(w_init,b_init,count,learning_rate):
     
 w_init = -100
 b_init = -100
-count = 20000
+count = 60000
 learning_rate = 1.0e-3
 w_final,b_final,w_hist,b_hist,c_hist = Gradient_Descent(w_init,b_init,count,learning_rate)
 
@@ -69,4 +69,15 @@ def vive():
     ax.plot(w_hist, b_hist, c_hist)
     plt.savefig("plot.png", dpi=300)
     plt.show()
-vive()
+
+def plot_1d(y,x,w_final,b_final):
+    plt.scatter(x,y,edgecolors="black",color="blue",linewidths=2,label = "Study_Hours")
+    y_pred = w_final*x+b_final
+    plt.plot(x,y_pred,color="red",label="Scores")
+    plt.xlabel("Study_Hours")
+    plt.ylabel("Scores")
+    plt.title("Study_Hours VS Scores")
+    plt.savefig("plot.png",dpi=300)
+    plt.legend()
+    plt.show()
+plot_1d(y,x,w_final,b_final)
