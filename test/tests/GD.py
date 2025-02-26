@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from ipywidgets import interact
-df = pd.read_csv("/Users/juhn/Desktop/stady_file/MachineLearning/test/tests/Salary_Data.csv")
-x = df["YearsExperience"]
-y = df["Salary"]
+data = pd.read_csv("/Users/juhn/Desktop/stady_file/MachineLearning/test/tests/Salary_data.csv")
+x = data["YearsExperience"]
+y = data["Salary"]
 #plt.scatter(x,y,edgecolors="black",color = "blue",linewidths=2)
 #cost function
 def cost_function(y,w,x,b)->int:
@@ -62,7 +62,7 @@ def viwe(y,w,x,b,elev,azim):
     w_index,b_index = np.where(costs == np.min(costs))
     ax.scatter(ws[w_index],bs[b_index],costs[w_index,b_index],color="red")
     ax.scatter(w_hist[0],b_hist[0],c_hist,color="green")
-    ax.set_title("Salary Data")
+    ax.set_title("Salary data")
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_zlabel("cost")

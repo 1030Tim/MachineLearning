@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-# import data save df
+# import data save data
 url = "/Users/juhn/Desktop/stady_file/MachineLearning/test/Test1/Study_Hourse_and_Scorse.csv"
-df = pd.read_csv(url)
-x = df["Study_Hours"]
-y = df["Scores"]
+data = pd.read_csv(url)
+x = data["Study_Hours"]
+y = data["Scores"]
 # cost function
 def cost_function(y,w,x,b):
     y_pred = w*x+b
