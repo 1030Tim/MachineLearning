@@ -1,9 +1,12 @@
-# MachineLearning
-## 學習方式
-1. 網路影片
-    - 寫過一次程式碼
-2. 書中範例原理
-    - 弄懂數學原理
-    - 寫過一次程式碼
-3. 實作環節
-4. 攥寫部落格
+- [ ] 機器學習
+    - [x] 線性回歸
+        - [x] cost function
+        - [x] gradient descent
+    - [ ] 多項式回歸
+        - [ ] cost function
+        - [ ] gradient descent
+    - [ ] 邏輯回歸
+        - [ ] Binary Cross Entropy
+        - [ ] gradient descent
+
+- [ ] 深度學習
