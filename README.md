@@ -12,12 +12,13 @@
 - [ ] **Logistic Regression** (未實作)
 
 ## 二、優化
-- [ ] **One Hot Encoder**
+- [x] **One Hot Encoder**
 - [ ] **熱力圖找關聯性**（熟練度低）
-- [ ] **MSE Cost Function**
-- [ ] **Gradient Descent**
-  - [ ] Simple Linear Regression
-  - [ ] Multiple Linear Regression 
+- [x] **MSE Cost Function**
+- [x] **Gradient Descent**
+  - [x] Simple Linear Regression
+  - [x] Multiple Linear Regression
+  - [ ] Logistic Regression
 
 ---
 
