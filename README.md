@@ -1,12 +1,12 @@
-- [ ] 機器學習
-    - [x] 線性回歸
-        - [x] cost function
-        - [x] gradient descent
-    - [ ] 多項式回歸
-        - [ ] cost function
-        - [ ] gradient descent
-    - [ ] 邏輯回歸
-        - [ ] Binary Cross Entropy
-        - [ ] gradient descent
+# my test of Multiple Linear Rigression
 
-- [ ] 深度學習
+## Linear Regression model 
+
+- [ ] simple linear regression / multiple linear regression
+    1. [x] One Hot Encoder
+    2. [x] spilt train a  and test of data
+    3. [x] cost function
+    4. [ ] compute gradient to gradient descient
+    5. [x] heatmap image
+- [ ] logistic linear regression
+
